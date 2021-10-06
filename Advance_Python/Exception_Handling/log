@@ -1,0 +1,5 @@
+10 -- root -- 2021-08-27 21:15:57,146 -- This is Debug
+11 -- root -- 2021-08-27 21:15:57,552 -- This is Info
+12 -- root -- 2021-08-27 21:15:57,849 -- This is Warning
+13 -- root -- 2021-08-27 21:15:58,708 -- This is Error
+14 -- root -- 2021-08-27 21:16:01,005 -- This is critical
