@@ -1,8 +1,14 @@
+# Python program to implement Audiobook Reader
+
+# 1. Read the PDF file
+# 2. Initialize Speaker
+# 3. Play the Audiobook 
+
 import speech_recognition as sr
 import pyttsx3
 import PyPDF2
 
-# It will open the pdf
+# It will open the pdf in read only mode
 book = open('File_Handling_python.pdf', 'rb')
 pdf_reader = PyPDF2.PdfFileReader(book)
 
@@ -23,6 +29,6 @@ for num in range(0,pages) :
     # Extract the text from pdf
     text = page.extractText()
 
-    # speaker.say('Look mama i can talk')
+    # speaker.say('What do you want to speak')
     speaker.say(text)
 speaker.runAndWait()
