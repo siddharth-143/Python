@@ -2,7 +2,7 @@
 
 import mysql.connector
 
-try :
+try:
     conn = mysql.connector.connect(
         user="root",
         password="password",
