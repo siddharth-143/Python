@@ -1,0 +1,48 @@
+----------------------------------------------Stored Procedure Query--------------------------------------------------
+
+
+// Display all data //
+    USE school;
+    DELIMITER $$
+    BEGIN
+    SELECT * FORM student
+    END $$
+    DELIMITER ;
+
+
+// Parameterized Stored Procedure //
+    USE school;
+    DELIMITER $$
+    CREATE PROCEDURE Para(IN roll int)
+    BEGIN
+    SELECT * FROM student WHERE roll=roll;
+    END $$
+    DELIMITER ;
+
+
+// Insert //
+    USE school;
+    DELIMITER $$
+    CREATE PROCEDURE stuInsert(IN name varchar(30), IN roll int(10), IN class varchar(10), IN fees int(10))
+    BEGIN
+    INSERT INTO student(stu_name, stu_roll, stu_class, stu_fees) VALUES (name, roll, class, fees);
+    END $$
+    DELIMITER ;
+
+// Delete
+    USE school;
+    DELIMITER $$
+    CREATE PROCEDURE stu_delete(IN roll int)
+    BEGIN
+    DELETE FROM student WHERE roll=roll;
+    END $$
+    DELIMITER ;
+
+// Update
+    USE school;
+    DELIMITER $$
+    CREATE PROCEDURE stu_update(IN name varchar(20), IN roll int(10), IN class varchar(20), IN fees int(10))
+    BEGIN
+    UPDATE student SET name=name, roll=roll, class=class, fees=fees;
+    END $$
+    DELIMITER ;
