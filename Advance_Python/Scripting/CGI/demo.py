@@ -1,5 +1,6 @@
-# C:\Users\siddharth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9
+#!C:\Users\siddharth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9
 
+import cgi, cgitb
 print("Content-type:text/html\r\n\r\n")
 print('<html>')
 print('<head>')

@@ -1,0 +1,18 @@
+<vehicles>
+    <car name="BMW">
+        <model>850 CSI</model>
+        <speed>1000</speed>
+    </car>
+        <car name="Mercedes">
+        <model>SL65</model>
+        <speed>988</speed>
+    </car>
+        <car name="Jaguar">
+        <model>850 CSI</model>
+        <speed>870</speed>
+    </car>
+        <car name="Ferrari">
+        <model>Enzo</model>
+        <speed>688</speed>
+    </car>
+</vehicles>
