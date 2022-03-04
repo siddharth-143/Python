@@ -21,7 +21,7 @@ git clone --depth 1 https://github.com/siddharth-143/Python.git
 
 3. Navigate to the project directory:file_folder.
 
-cd Automatic-attendance-management-system
+cd siddharth-143/python
 
 4. Add a reference(remote) to the original repository.
 
