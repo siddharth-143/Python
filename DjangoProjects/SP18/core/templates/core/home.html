@@ -1,0 +1,10 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+    <h1>Home Page {{d}}</h1>
+    {% include 'core/topcourse.html' with p='PHP' only%}
+    {% include 'core/topcourse.html' with p='Rust' only%}
+    {% include 'core/topcourse.html' with p='Reactjs' only%}
+{% endblock content %}

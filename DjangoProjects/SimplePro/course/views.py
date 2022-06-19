@@ -1,0 +1,11 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+# Create your views here.
+# single view with single fucntion
+
+def learn_django(request):
+    return HttpResponse(
+        "<h1>Hello Django</h1>"
+    )
